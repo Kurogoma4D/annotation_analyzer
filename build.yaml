@@ -1,0 +1,6 @@
+builders:
+  annotation_analyzer:
+    import: "package:annotation_analyzer/annotation_analyzer.dart"
+    builder_factories: ["annotationAnalyzer"]
+    build_extensions: {}
+    auto_apply: none

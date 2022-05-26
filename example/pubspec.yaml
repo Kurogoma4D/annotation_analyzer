@@ -1,0 +1,17 @@
+name: example
+description: Example
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.17.1 <3.0.0'
+
+dependencies:
+  aa_annotation:
+    path: ../../aa_annotation/
+
+dev_dependencies:
+  lints: ^2.0.0
+  build_runner: any
+  annotation_analyzer:
+    path: ../
